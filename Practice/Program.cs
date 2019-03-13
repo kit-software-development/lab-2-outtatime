@@ -14,6 +14,8 @@ namespace Practice
     {
         static void Main(string[] args)
         {
+            int n;
+            
             IClient client = Builders.ClientBuilder()
                 .Name("Иванов", "Иван", "Иванович") 
                 .Discount(.1f)
